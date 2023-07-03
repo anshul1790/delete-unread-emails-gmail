@@ -9,7 +9,7 @@ Delete unread emails from gmail
 5. Set out the total emails you want to delete totalEmailDeleteCount = 100;
 6. Then finally run this function var interval = setInterval(deleteEmails, 10000);
 
-`
+```
 var deleteEmails = function() {
     var unreadEmailList = document.querySelectorAll('.zA.zE');
     unreadEmailList.forEach(function (emailItem) {
@@ -29,4 +29,5 @@ var deleteEmails = function() {
 var count = 0;
 var totalEmailDeleteCount = 100;
 var interval = setInterval(deleteEmails, 10000);
-`
+
+```
