@@ -1,5 +1,3 @@
-var count = 0;
-var totalEmailDeleteCount = 100;
 var deleteEmails = function() {
     var unreadEmailList = document.querySelectorAll('.zA.zE');
     unreadEmailList.forEach(function (emailItem) {
